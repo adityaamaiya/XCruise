@@ -1,7 +1,7 @@
 describe('xCruise Landing Page Tests', () => {
   beforeEach(() => {
     // Visit the xCruise home page before each test
-    cy.visit('http://43.205.122.59:8081/workspace/amaiyaaditya-ME_FE_BUILDOUT_XCRUISE/') // Replace with the actual URL
+    cy.visit('http://15.207.88.188:8081/workspace/amaiyaaditya-ME_FE_BUILDOUT_XCRUISE/') // Replace with the actual URL
   });
 
   it('Navigation Bar - should display the xCruise logo', () => {
