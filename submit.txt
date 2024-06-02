@@ -1,1 +1,1 @@
-http://43.205.122.59:8081/workspace/amaiyaaditya-ME_FE_BUILDOUT_XCRUISE/
+http://15.207.88.188:8081/workspace/amaiyaaditya-ME_FE_BUILDOUT_XCRUISE/
