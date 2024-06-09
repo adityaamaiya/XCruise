@@ -210,9 +210,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact-box {
+    
     border: 1px solid #ccc; /* Add a border to the boxes */
     padding: 20px; /* Add padding inside the boxes */
-    width: 600px; /* Adjust the width of the boxes */
+    width: 30rem; /* Adjust the width of the boxes */
     height: 70px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visual separation */
     
@@ -289,6 +290,29 @@ li{
         gap: 20px; /* Add some space between the boxes */
         padding: 20px; /* Optional: Adjust padding as needed */
     }
+    .main_footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .social-icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        
+    }
+    .contact_info {
+        display: flex;
+        justify-content: center; /* Center align the boxes horizontally */
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px; /* Add some space between the boxes */
+        padding: 20px; /* Optional: Adjust padding as needed */
+    }
 }
 
 @media (max-width:480px){
@@ -334,6 +358,19 @@ li{
         gap: 20px; /* Add some space between the boxes */
         padding: 20px; /* Optional: Adjust padding as needed */
     }
-   
+    .main_footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .social-icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        
+    }
 }
 
