@@ -313,6 +313,9 @@ li{
         gap: 20px; /* Add some space between the boxes */
         padding: 20px; /* Optional: Adjust padding as needed */
     }
+    .heading p{
+        text-align: center;
+    }
 }
 
 @media (max-width:480px){
@@ -371,6 +374,9 @@ li{
         align-items: center;
         gap: 15px;
         
+    }
+    .heading p{
+        text-align: center;
     }
 }
 
