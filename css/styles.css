@@ -122,9 +122,14 @@ a {
     gap: 10px;
     margin: 0px 5px;
     padding: 8px 12px;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border: 1px solid black;
     border-radius: 30px;
     cursor: pointer;
+    
+    
+}
+.pills>div:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .pills img{
@@ -137,7 +142,7 @@ a {
 .logo img{
     width: 50px;
     height: 50px;
-    cursor: pointer;
+   
 }
 
 
@@ -145,7 +150,7 @@ a {
     position: relative;
     margin-bottom: 15px;
     display: inline-block;
-    
+    width: 100%;
    
 }
 .bookmark-icon {
@@ -158,6 +163,8 @@ a {
     border-radius: 50%;
     padding: 5px; /* Space around the image to make it smaller */
     cursor: pointer;
+    z-index: 1;
+    transition: transform .2s ;
 }
 
 .bookmark-icon img {
@@ -165,12 +172,21 @@ a {
     height: 100%;
     object-fit: cover; /* Ensures the image covers the area without stretching */
     
+    
 }
+.bookmark-icon:hover{
+    transform: scale(1.1);
+    
+    
+}
+
 
 
 .Banner img{
     width: 100%;
+    border-radius: 5px;
 }
+
 
 .Dicover_banner_text{
     font-size: 15px;
@@ -188,10 +204,19 @@ a {
 .card{
     position: relative;
     cursor: pointer;
+    overflow: hidden;
+    border-radius: 5px;
 }
-.card img{
+
+.card-img:hover{
+    transform: scale(1.1);
+    filter: brightness(0.8);
+    
+}  
+.card-img{
     width: 100%;
     height: 100%;
+    transition: transform .2s;
 }
 
 .Card_text{
@@ -238,6 +263,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 30rem; /* Adjust the width of the boxes */
     height: 70px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visual separation */
+    border-radius: 5px;
     
 }
 .contact-box h4 {
