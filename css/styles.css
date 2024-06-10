@@ -144,7 +144,29 @@ a {
 .Banner{
     position: relative;
     margin-bottom: 15px;
+    display: inline-block;
+    
+   
 }
+.bookmark-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 15px; /* Size of the entire icon div */
+    height: 15px;
+    background-color: rgba(0, 0, 0, 0.397);
+    border-radius: 50%;
+    padding: 5px; /* Space around the image to make it smaller */
+    cursor: pointer;
+}
+
+.bookmark-icon img {
+    width: 100%; /* Makes the image fill the remaining space within the padded div */
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+    
+}
+
 
 .Banner img{
     width: 100%;
@@ -237,6 +259,7 @@ h1, h2, h3, h4, h5, h6 {
 li{
     cursor: pointer;
 }
+
 .footer_rights{
     border-top: 1px solid white;
     display: flex;
