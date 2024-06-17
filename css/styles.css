@@ -339,8 +339,8 @@ li{
     }
 
     .contact-box {
-        width: 90%; /* Make the boxes take 90% of the screen width */
-        max-width: 400px; /* Optionally, set a max-width */
+       
+        max-width: 700px; /* Optionally, set a max-width */
     }
     .main_footer{
         display: flex;
@@ -399,10 +399,12 @@ li{
     .contact_info {
         flex-direction: column; /* Stack the boxes vertically on smaller screens */
         gap: 10px; /* Adjust gap for vertical stacking */
+        justify-content: center;
+        align-items: center;
     }
 
     .contact-box {
-        width: 90%; /* Make the boxes take 90% of the screen width */
+        /* Make the boxes take 90% of the screen width */
         max-width: 400px; /* Optionally, set a max-width */
     }
     .main_footer{
