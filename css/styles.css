@@ -146,7 +146,7 @@ table {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(https://github.com/Mohak-Trivedi/xCruise/blob/main/assests/hero-cruise.png?raw=true);
+  background-image: url("../assets/hero-cruise.png");
   background-size: cover;
   background-position: center;
   color: #ffff;
